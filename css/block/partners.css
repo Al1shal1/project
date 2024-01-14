@@ -1,6 +1,6 @@
 .partners {
     background: #F4F5F5;
-    padding: 88px 0 13px;
+    padding: 88px 0 52px;
 }
 
 .partners__title {
@@ -8,7 +8,7 @@
     font-size: 48px;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 99px;
+    margin-bottom: 65px;
 }
 
 .partners__list {
@@ -21,8 +21,7 @@
     width: 270px;
     height: 100px;
     margin-left: 20px;
-    margin-top: -38px;
-    margin-bottom: 71px;
+    margin-bottom: 33px;
     filter: grayscale(100%);
     transition: 0.3s;
 }

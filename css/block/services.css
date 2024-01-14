@@ -2,7 +2,7 @@
     background: #FFF;
 }
 .services {
-    padding: 98px 0 63px;
+    padding: 98px 0 85px;
 }
 
 .services__list {
@@ -57,7 +57,7 @@
     height: 55px;
     border: 1px solid #F5170E;
     transition: 0.3s;
-    margin-bottom: 18px;
+    
 }
 
 .services__content__btn:hover {
@@ -67,7 +67,6 @@
 
 .services--paginator {
     margin-top: 58.5px;
-    padding-bottom: 27px;
 }
 
 .services--paginator .paginator__display {
