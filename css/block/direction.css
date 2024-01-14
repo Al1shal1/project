@@ -1,0 +1,135 @@
+
+.directions {
+    width: 1140px;
+    height: 565px;
+}
+
+.direction__title {
+    display: inline-block;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2.direction__title {
+    margin-bottom: 51px;
+}
+
+h2.direction__title::after {
+    display: inline-block;
+    content: "";
+    background: url(../../image/flame.png) no-repeat;
+    width: 21px;
+    height: 28px;
+    margin: 0 0 0 12px;
+    vertical-align: middle;
+}
+
+.direction__list {
+    display: flex;
+    width: 1140px;
+    height: 466px;
+    justify-content: space-between;
+}
+
+.direction__list-item {
+    display: inline-block;
+    width: 359px;
+    height: 466px;
+    margin: 0 27px 0 0;
+}
+
+.direction__list-item:last-child {
+    margin-right: 0;
+
+}
+
+.direction__image {
+    border-radius: 5px 5px 0px 0px;
+    vertical-align: top;
+}
+
+.direction__content {
+    padding: 33px 16px 26px 19px;
+    border-radius: 0px 0px 5px 5px;
+    background: #FFF;
+    width: 362px;
+    height: 305px;
+}
+
+h3.direction__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.direction__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 268px;
+    margin: 21px 0 0 6px;
+}
+
+.direction__about {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.direction__about:last-child {
+    margin-right: 0;
+
+}
+
+.direction__about:first-of-type::before {
+    display: inline-block;
+    content: "";
+    background: url(../../image/calendar.png) no-repeat;
+    width: 26px;
+    height: 26px;
+    margin: 2px 10px 2px 0;
+    vertical-align: middle;
+}
+
+.direction__about+.direction__about::before {
+    display: inline-block;
+    content: "";
+    background: url(../../image/meal.png);
+    width: 36px;
+    height: 26px;
+    margin: -1px 9px 3px -9px;
+    vertical-align: middle;
+}
+
+.direction__about-text {
+    display: inline-block;
+    color: #303030;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 23.5px;
+    margin-bottom: 24.5px;
+}
+
+.direction__link-btn {
+    display: inline-block;
+    color: #F5170E;
+    background: #FFF;
+    padding: 18px 30px;
+    width: 135px;
+    height: 55px;
+    border: 1px solid #F5170E;
+    transition: 0.3s;
+}
+
+.direction__link-btn:hover {
+    background: #F5170E;
+    color: #FFF;
+}

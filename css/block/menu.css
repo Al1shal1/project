@@ -1,0 +1,16 @@
+.menu__item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu__title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.menu__title:hover {
+    color: #DA0100;
+}

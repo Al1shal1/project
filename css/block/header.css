@@ -1,0 +1,32 @@
+.header {
+    margin-bottom: 116px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    align-items: center;
+}
+.header__col {
+    display: flex;
+    align-items: center;
+}
+.header__col-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .contacts {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header .menu__item:last-child {
+    margin-right: 0;
+}
+
+.header .contacts__timetable {
+    margin-right: 2px;
+}

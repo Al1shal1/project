@@ -1,0 +1,15 @@
+
+.button{
+    color: #fff;
+    background: #F5170E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 35px;
+    padding: 18px 40px;
+}
+
+.button-hover:hover {
+    transform: scale(1.1);
+}

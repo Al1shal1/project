@@ -1,0 +1,138 @@
+.footer {
+    margin-top: auto;
+    margin-bottom: 57px;
+}
+
+.footer .container {
+    height: 92.635px;
+    
+}
+
+.footer .container::before {
+    content: "";
+    background: url(../../image/line.png);
+    width: 1142px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer__col-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo {
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    margin-right: 79px;
+}
+.footer .menu__list {
+    display: flex;
+    margin-top: 12px;
+}
+
+.footer .menu__item {
+    display: flex;
+    margin-right: 50px;
+}
+
+.footer .menu__item:last-child {
+    margin-right: 0;
+}
+
+.footer .menu__title {
+    display: flex;
+}
+
+.footer__col-right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}
+.social {
+    margin-right: 74px;
+}
+.social__icon {
+    display: flex;
+}
+.social__item {
+    display: flex;
+    margin-right: 10px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link-tg {
+    display: inline-block;
+    content: "";
+    background: url(../../image/telegram.png);
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social__link-tg:hover {
+    background: url(../../image/t.png);
+}
+
+.social__link-vk {
+    display: inline-block;
+    content: "";
+    background: url(../../image/vk.png);
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social__link-vk:hover {
+    background: url(../../image/v.png);
+}
+
+.social__link-f {
+    display: inline-block;
+    content: "";
+    background: url(../../image/f.png);
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social__link-f:hover {
+    background: url(../../image/ff.png);
+}
+
+.social__link-in {
+    display: inline-block;
+    content: "";
+    background: url(../../image/in.png);
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social__link-in:hover {
+    background: url(../../image/i.png);
+}
+
+.contacts__subtitle {
+    color: #9A9A9A;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 6.5px;
+}
+
+.footer .contacts__phone {
+    line-height: 20px;
+}
