@@ -223,7 +223,7 @@
                         <section class="review__form">
                             <div class="container">
                                 <h2 class="form__title">Оставьте отзыв</h2>
-                                <form action="" class="form">
+                                <form action="" class="form" id="review">
                                     <div class="form__row">
                                         <input type="text" placeholder="ФИО" class="form__input">
                                         <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
@@ -278,10 +278,11 @@
                                             </label>
                                         </li>
                                     </ul>
+                                    
                                 </div>
                                 <div class="form__btn">
-                                    <button class="button form__button form__button--grey button-hover">Очистить</button>
-                                    <button class="button form__button button-hover">Отправить</button>
+                                    <button type="reset" form="review" name="" class="button form__button form__button--grey button-hover">Очистить</button>
+                                    <button type="submit"  form="review" class="button form__button button-hover">Отправить</button>
                                 </div>
                             </div>
                         </section>
