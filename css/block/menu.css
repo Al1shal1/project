@@ -8,9 +8,12 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+    position: relative;
     transition: 0.3s;
 }
-
+.menu__title--selected{
+    border-bottom: 3px solid #FFF;
+}
 .menu__title:hover {
     color: #DA0100;
 }

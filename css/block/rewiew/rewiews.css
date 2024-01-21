@@ -12,6 +12,7 @@
 .reviews__item {
 display: inline-block;
 margin-bottom: 17px;
+background: #F4F5F5;
 }
 .reviews__item:last-child{
     margin-bottom: 0;
