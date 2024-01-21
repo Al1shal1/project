@@ -14,7 +14,8 @@
     line-height: 20px;
     text-decoration-line: underline;
     cursor: pointer;
-    margin-right: 2px;
+    margin-top:-8px;
     display: flex;
     justify-content: flex-end; 
 }
+

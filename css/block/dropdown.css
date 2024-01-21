@@ -1,0 +1,30 @@
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown__menu{
+    opacity: 1;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background: url(../../image/dropdown.svg) 0 0 no-repeat;
+padding: 22px 19px 15px ;
+top: 100%;
+right: 0;
+opacity: 0;
+transition: .3s;
+
+}
+.dropdown__item {
+}
+.dropdown__elem {
+    color: #1E1F20;
+font-size: 13px;
+font-weight: 600;
+line-height: 21px;
+display: flex;
+justify-content: flex-start;
+}
+.dropdown__elem--bold{
+    font-weight: 700;
+}

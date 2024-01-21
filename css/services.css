@@ -1,5 +1,6 @@
-@import url('./block/top-page.css');
-@import url('./block/breadcrumbs.css');
-@import url('./block/services.css');
-@import url('./block/partners.css');
-@import url('./block/services__footer__menu.css');
+@import url('./block/services/top-page.css');
+@import url('./block/services/page-title.css');
+@import url('./block/services/breadcrumbs.css');
+@import url('./block/services/services.css');
+@import url('./block/services/partners.css');
+@import url('./block/services/services__footer__menu.css');

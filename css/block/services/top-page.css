@@ -1,0 +1,30 @@
+.top-page {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../../image/headline.png) top no-repeat;
+}
+
+.top-page__container {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 25px;
+
+}
+
+.top-page__header {
+    margin-bottom: 50px;
+}
+
+.services__logo {
+    margin-right: 66px;
+}
+
+.services__logo__img {
+    width: 98px;
+    height: 42px;
+}
+

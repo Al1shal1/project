@@ -1,0 +1,23 @@
+.form__btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+
+.form__button {
+    border: none;
+    margin-right: 22px;
+    
+}
+.form__button:last-child{
+margin-right: 0;
+}
+
+.form__button--grey{
+    background: #8E8E8E;
+}
+
+.form__button--grey:hover{
+    background: #2B2B2B;
+    transition: 0.3s;
+}

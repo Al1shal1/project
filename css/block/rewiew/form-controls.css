@@ -1,0 +1,36 @@
+.form__controls {
+    display: flex;
+    
+}
+.form__controls-title {
+    color: #1A1B1E;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+min-width: 365px;
+margin: 10px 74px 0 0;
+}
+.form__controls-list {
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+.form__controls-item {
+    margin: 0 5px 9px 0;
+}
+.form__controls-elem {
+    cursor: pointer;
+}
+.controls--chekbox {
+    display: none;
+}
+.controls--chekbox:checked + .tag{
+    background: #B9EAE4;
+}
+
+.form__controls--tag{
+    color: #1A1B1E;
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+}

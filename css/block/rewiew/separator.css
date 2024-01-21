@@ -1,0 +1,17 @@
+.separator {
+    background: url(../../../image/reviews-img/couple.png)right 36% bottom no-repeat, url(../../../image/reviews-img/separator.png) center 0 no-repeat;
+    min-height: 362px;
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.separator__content {
+    max-width:594px ;
+}
+.separator__title {
+    color: #FFF;
+font-size: 48px;
+font-weight: 700;
+line-height: normal;
+}

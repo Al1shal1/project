@@ -1,0 +1,9 @@
+.tag {
+    display: flex;
+    height: 37px;
+    border-radius: 35px;
+    background: #E7E7E7;
+    align-items: center;
+    padding: 9px 18px;
+    }
+  

@@ -1,0 +1,46 @@
+.review__form{
+    background: #F4F5F5;
+    padding: 62px 0 96px;
+}
+.form__title {
+    color: #1A1B1E;
+font-size: 48px;
+font-weight: 700; 
+line-height: normal;
+margin-bottom: 57px;
+}
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+
+}
+.form__input {
+    flex:1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+    padding: 20px 30px;
+    color: #1A1B1E;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+.form__input:focus{
+    outline: 1px solid #F5170E;
+}
+
+.form__input::placeholder{
+    color: #666;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+
+.form__input:last-child{
+    margin-right: 0;
+}
+
+.form__input--textarea {
+    height: 235px;
+}
